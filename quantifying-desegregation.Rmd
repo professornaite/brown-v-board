@@ -1,0 +1,106 @@
+---
+title: "Perspectives on Quantifying School Segregation and Desegregation"
+author: "Nathan Alexander, PhD ^[Howard University, nathan.alexander@howard.edu]"
+bibliography: brown-references.bib # include references file
+csl: apa.csl
+output:
+  word_document:
+    toc: false
+    reference_docx: word-styles-reference.docx
+  pdf_document:
+    toc: false
+    toc_depth: 2
+    number_section: true 
+  html_document:
+    toc: true
+    toc_depth: 2
+    number_sections: true
+    theme: flatly
+editor_options:
+  markdown:
+    wrap: sentence
+---
+
+# Abstract
+
+This article takes a critical computational approach to questions of school desegregation in recognition of the 70th anniversary of the 1954 Brown *v* Board United States Supreme Court decision.
+I conduct a conceptual replication of the 1974 work of Michael Giles[^2] entitled *Measuring School Desegregation* published in the *Journal of Negro Education* (JNE) and follow-up with a thematic analysis of journal articles on this topip to examine the narratives of research in this domain over the last 50 years.
+I first examine perspectives on mathematical modeling and engage a series of conceptual models related to Giles' initial framing of the quantification of school desegregation.
+The analysis reveals how attributed mathematical models may or may not account for the complex systems to which school desegregation has been attributed in the research literature.
+Specifically, the models and main themes from the extant literature on school desegregation will be examined to generate a commentary on the methodological insights provided by increasingly interdisciplinary perspectives, and specifically those which take quantification and mathematical modeling as further tools and insights to understanding longstanding problems of injustice and inequity.
+Implications for researchers will be provided.
+
+[^1]: <https://www.jstor.org/stable/2966711>
+
+*Keywords*: *Brown v. Board of Education*, desegregation, race, mathematics, modeling
+
+\newpage
+
+# Introduction
+
+The landmark 1954 Supreme Court decision in Brown v. Board of Education marked a pivotal moment in the struggle for racial equality in the United States, mandating the desegregation of public schools. Seventy years on, the legacy of this decision continues to evoke critical examination and reflection, particularly in the context of educational policies and practices. This paper seeks to revisit and critically analyze the complexities of school desegregation through a computational lens, drawing upon the foundational work of Michael Giles in his 1974 study, "Measuring School Desegregation," published in the Journal of Negro Education.
+
+The research aims to conceptually replicate Giles' study, focusing on the mathematical modeling of school desegregation. By engaging with a series of conceptual models, this study explores how these models have been historically framed and utilized to quantify desegregation efforts. Furthermore, a thematic analysis of the literature over the past five decades will be conducted to uncover narratives and insights into the evolution of research in this domain.
+
+The findings of this analysis are expected to reveal the extent to which mathematical models have succeeded or failed in capturing the complexities inherent in school desegregation processes. By examining the models and themes from existing literature, this study aims to provide a commentary on the methodological advancements brought about by interdisciplinary approaches. It emphasizes the role of quantification and mathematical modeling as tools for understanding persistent issues of injustice and inequity in education. The paper will conclude with implications for researchers, highlighting the need for innovative methodologies that can address the multifaceted challenges of school desegregation.
+
+[@berthelon2019structure]
+[@clotfelter1978alternative]
+
+@zoloth1976alternative talks about this as well.
+
+[^2]: <https://www.jstor.org/stable/2966711>
+
+# Quantification and Racial Matter
+
+@zuberi has talked about the issues with the quantification of race, and over the last 50 years, several key mathematical models have been utilized in the study of school desegregation. These models primarily focus on measuring the distribution of students across schools and understanding the effects of desegregation policies. Here are some of the prominent models and approaches:
+
+Dissimilarity or Evenness Index: This index measures the extent to which students of different racial groups are evenly distributed across schools within a district. It calculates how many students would need to be moved to achieve a uniform racial balance in each school. This model has been used to assess whether school systems have achieved "unitary status" by eliminating racially identifiable schools.
+
+Multivariate Regression Models: These models have been used to analyze segregation at the metropolitan level, predicting school segregation based on various factors. They distinguish between within-district, between-district, and overall metropolitan segregation, allowing researchers to understand trends and the impact of desegregation orders over time.
+
+Longitudinal and Cross-Sectional Analyses: Some studies have used longitudinal data to examine the long-term effects of attending desegregated schools on student outcomes. These analyses control for various factors to isolate the impact of desegregation on educational attainment, income, health, and other measures of well-being.
+
+Meta-Analytic Evaluations: Meta-analyses have been conducted to evaluate the overall effects of desegregation on academic achievement. These studies aggregate data from multiple sources to assess the impact of desegregation efforts on reading and math abilities, although results have often been mixed and inconclusive.
+
+These models and approaches highlight the complexity of studying school desegregation and the ongoing challenges in measuring its effects accurately. They also underscore the importance of interdisciplinary perspectives in developing more comprehensive models to address issues of educational inequity and injustice.
+
+## Variations in race and ethnicity
+
+The influence of different racial and ethnic groups on the outcomes of desegregation models is multifaceted and complex. Various studies have highlighted how these groups impact the effectiveness and interpretation of desegregation efforts:
+
+Dissimilarity Index Adjustments: Traditionally, the "black-white dissimilarity" or "evenness" index has been used to measure racial balance within schools. However, with the increasing diversity in urban school systems, the index has been expanded to include Hispanic and Asian students. This expansion reflects the complexity of segregation issues and the need to consider multiple racial and ethnic groups when assessing desegregation outcomes.
+
+Impact on Black Teachers: The presence and proportion of black teachers have been influenced by desegregation policies. In southern metropolitan areas, mandated desegregation was associated with a decrease in the proportion of black teachers, while in non-southern areas, it mitigated the decrease. This suggests that the racial composition of the teaching force is affected differently across regions and racial contexts.
+
+Interracial Attitudes and Behavior: Desegregation has had varied effects on interracial attitudes and behaviors among students. Studies have shown that different racial groups have different expectations and evaluations of desegregation. For instance, black students' positive evaluations of desegregation decreased over time, while white students showed little change. These differences highlight the importance of considering racial and ethnic perspectives when evaluating desegregation outcomes.
+
+Long-term Outcomes: Research indicates that attending desegregated schools can have positive long-term effects on students' educational and economic outcomes, but these effects can vary across racial groups. For example, attending desegregated schools has been linked to increased educational attainment and earnings, as well as reduced incarceration and poverty rates, but the mechanisms through which these outcomes are achieved can differ based on racial and ethnic backgrounds. @james1985measures in their study focus on measures of segregation.
+
+Overall, the influence of different racial and ethnic groups on desegregation models underscores the need for nuanced and inclusive approaches that account for the diverse experiences and impacts on various communities.
+
+# Conceptual Framework
+
+This article takes a critical computational approach to questions of school desegregation in recognition of the 70th anniversary of the 1954 Brown v. Board United States Supreme Court decision.
+I conduct a conceptual replication of the 1974 work of Michael Giles[^3] entitled *Measuring School Desegregation* published in the *Journal of Negro Education* (JNE).
+I first examine perspectives on mathematical modeling and engage a series of conceptual models related to Giles' initial framing of the quantification of school desegregation.
+The analysis reveals how attributed mathematical models may or may not account for the complex systems to which school desegregation has been attributed in the research literature.
+Specifically, the models and main themes from the extant literature on school desegregation will be examined to generate a commentary on the methodological insights provided by increasingly interdisciplinary perspectives, and specifically those which take quantification and mathematical modeling as further tools and insights to understanding longstanding problems of injustice and inequity.
+Implications for researchers will be provided.
+[@taeuber2023demographic]
+
+
+[^3]: <https://www.jstor.org/stable/2966711>
+
+\newpage
+
+https://www.vox.com/2018/3/5/17080218/school-segregation-getting-worse-data
+
+https://tcf.org/content/data/school-segregation-in-cities-across-america-mapped/
+
+https://www.urban.org/sites/default/files/publication/101101/when_is_a_school_segregated_making_sense_of_segregation_65_years_after_brown_v._board_of_education_0.pdf
+
+
+\newpage
+
+# References

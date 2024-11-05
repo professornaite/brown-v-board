@@ -1,0 +1,173 @@
+---
+title: "Quantifying School Desegregation: Critical Meditations on Anti-Blackness in the Post Brown Era"
+bibliography: brown-references.bib # include references file
+csl: apa.csl
+output:
+  word_document:
+    toc: false
+    reference_docx: word-styles-reference.docx
+  pdf_document:
+    toc: false
+    toc_depth: 2
+    number_section: true 
+  html_document:
+    toc: true
+    toc_depth: 2
+    number_sections: true
+    theme: flatly
+editor_options:
+  markdown:
+    wrap: sentence
+---
+
+\newpage
+
+# Abstract
+
+The practice and process of quantification involves the measurement or numerical expression of attributes related to a specific phenomenon, event, or entity.
+This article takes a critical computational approach to examining school desegregation and quantification on this 70th anniversary of the 1954 *Brown v. Board of Education* decision.
+The analysis engages a 1974 article in the *Journal of Negro Education* by Michael Giles, "Measuring School Desegregation." In Giles' study, a segregation index was analyzed to frame the required "movement" of Black children and youth to help fulfill the perceived promise of *Brown*.
+The present study conducts a critical conceptual replication of Giles' work situated within a critical quantification framework that incorporates critical theories in Black education.
+While findings reveals how seemingly comprehensive models and technical language do not fully account for the complex social systems associated with school desegregation in the research literature, they also highlight an apathy in modern scholarship to maintain narratives of hope and survival.
+Critical quantification, however, provides a series of counter examples that can be leveraged for framing contemporary education policies and research practices.
+Implications for extending the discourses in quantitative critical theory, or QuantCrit, beyond critical statistical analysis to include spatial data are also provided.
+
+*Keywords*: *Brown v. Board of Education*, desegregation, segregation, race, modeling
+
+\newpage
+
+# Introduction
+
+Derrick Bell's *Silent Covenants* [@bell2004silent] speaks of the involuntary sacrifices and racial convergences that encode the ongoing realities of inequitable and unjust public policies in the United States.
+By taking an historical approach to the inadequacy of racial policies, Bell challenges readers to consider nuance in narratives of hope and trust in failed progress that has been maintained "throughout the history of civil rights policies," which Bell notes, "have been insufficient...to gain real relief from any branch of government" (p. 49).
+When considering the injustices that Black people in the United States have and continue to suffer, Bell renders the long shadow of *Plessy* to pathways beyond the ideation of racial fortuity – or the condition where Black people's lives are subject to change, at the interplay of interest convergence and racial sacrifice.
+Here, with racial fortuity, Bell provides an intersectional class critique, connecting to the theme of materialism in his broader work, and challenges, as I argue, scholars to consider how our interests, rather than our moral considerations, drive much of our willingness in contemporary scholarship to not only witness but *allow* the subjugation of Black children, youth, and families in the United States [@dumas2014losing; @dumas2016real; @miraya2023clearing].
+
+This article takes a critical quantification approach to extend, in essence, one of James Baldwin's famous quotes around progress.
+In 1989, the American writer, when considering, like Bell and other scholars (see, e.g., [-@berry2014examining], the history of systemic racism and failed progress in U.S. public policies asked: “You always told me it takes time. It has taken my father's time, my mother's time, my uncle's time, my brothers' and my sisters' time, my nieces' and my nephews' time. How much time do you want for your 'progress'?”
+
+# Study Frameworks
+
+## Conceptual framework
+
+"Despite the fact that legal and administrative decisions concerning school desegregation have rested increas- ingly on quantitative concepts, little attention has been directed toward the development of a uniform and rigorous method for measuring school desegregation. The purpose of the present article is to suggest such a measure" [@giles1974measuring, p. 516].
+
+@chodrow2017structure notes that we should "view the problem of learning the structure of segregation as the task of ﬁnding interpretable units of spatial aggregation with boundaries that correspond to demographic transitions. This problem is a form of regionalization—spatially constrained clustering" (p. 11592).
+When taken in the context of educational theories, such as @wells1994perpetuation, we are challenged to consider the role of critical theories in advanced analytic techniques within social and historical realities of inequity in the diverse narratives on Black education [@king2006black; @miraya2023clearing; @tillman2008sage].
+
+These diverse approaches, then, challenge us to push beyond narratives of hope and survival, towards those that can increasingly dismantle, in the abolitionist tradition, an increasing willingness to allow for some Black children to thrive but not *all* Black children [@love2019we].
+These extensions challenge us to refuse a singular focus, for example, on social and emotional learning for Black and other children racialized as non-white [@camangian2022social].
+
+## Theoretical framework
+
+Text.
+
+### Whiteness as property
+
+## Analytic framework
+
+Text.
+
+$$
+\sum_{i=1} \big| \dfrac{b_i}{B} - \dfrac{w_i}{W} \big|
+$$
+
+$RB_i$ refers to those students who are racialized as Black, whereas $RW_i$ refers to those students who are racialized as White, and the honorary whites.
+
+$$
+\sum_{i=1} \big| \dfrac{Rb_i}{RB} - \dfrac{Rw_i}{RW} \big|
+$$
+
+# Data and Methods
+
+Text.
+
+## Data
+
+Text.
+
+## Methods
+
+Conceptual replication.
+
+### Schools as Blocks
+
+### Students as Households
+
+### Information
+
+More advanced analyses may follow Chodrow [-@chodrow2017structure] to consider the ways that complex information may inform our insights about framing a measure of dissimilarity in residential segregation to a measure of schools and students.
+
+# Analysis
+
+Text.
+
+| School | White Enrollment | Non-White Enrollment  | Difference        |
+|--------|------------------|-----------------------|-------------------|
+| A      | 500              | 0                     | .50               |
+| B      | 500              | 500                   | .00               |
+| C      | 500              | 0                     | .50               |
+| D      | 0                | 500                   | .50               |
+| E      | [0]{.underline}  | [500]{.underline}     | [.50]{.underline} |
+|        | 1500             | 1500                  | 2.00              |
+|        |                  | **Segregation Index** | 1.00              |
+
+: Table. Segregation Index in a Completely Segregated School System
+
+## Zero point
+
+"Determining what condition or conditions constitute desegregation for a school district" [@giles1974measuring, p. 518]
+
+Racial composition - Adam Clayton Powell in the language of the Massachusetts Act [@giles519]
+
+Text.
+
+| School | White Enrollment  | Non-White Enrollment  | Difference        |
+|--------|-------------------|-----------------------|-------------------|
+| A      | 500               | 500                   | .00               |
+| B      | 500               | 500                   | .00               |
+| C      | 500               | 500                   | .00               |
+| D      | 500               | 500                   | .00               |
+| E      | [500]{.underline} | [500]{.underline}     | [.00]{.underline} |
+|        | 2500              | 2500                  | 0.00              |
+|        |                   | **Segregation Index** | .00               |
+
+: Table. Segregation Index in a Seemingly Desegregated School System
+
+## Percent points
+
+@giles1974measuring identifies a set of percent point that serve as measures of desegregation.
+
+**The 90-percent point**: The "90 per cent or more whites" [@giles1974measuring, p. 518] enrollment point that defined desegregation The Allen Report of 1964 [@allen]; the 90 percent point is also used by the HEW's Office of Civil Rights [@hew].
+
+Text.
+
+| School | White Enrollment  | Non-White Enrollment  | Difference        |
+|--------|-------------------|-----------------------|-------------------|
+| A      | 500               | 100                   | .40               |
+| B      | 0                 | 500                   | .50               |
+| C      | 500               | 500                   | .00               |
+| D      | 500               | 200                   | .30               |
+| E      | [500]{.underline} | [300]{.underline}     | [.20]{.underline} |
+|        | 2500              | 2500                  | 1.40              |
+|        |                   | **Segregation Index** | .70               |
+
+: Table. Segregation Index in a Partially De/segregated School System
+
+**The 50-percent point**: Text.
+
+**The 89-percent and 49-percent points**: Text.
+
+**The 25-percent point**: Text.
+
+# Discussion
+
+Text.
+
+# Conclusion
+
+Text.
+
+\newpage
+
+# References
