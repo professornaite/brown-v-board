@@ -1,5 +1,5 @@
 ---
-title: "Quantifying School Desegregation: Critical Meditations on Anti-Blackness in the Post Brown Era"
+title: "Critical Quantification and the Legacy of Brown v. Board: Challenging Traditional Concepts and Approaches"
 bibliography: brown-references.bib # include references file
 csl: apa.csl
 output:
@@ -38,8 +38,9 @@ Implications for extending the discourses in quantitative critical theory, or Qu
 
 # Introduction
 
-Derrick Bell's *Silent Covenants* [@bell2004silent] speaks of the involuntary sacrifices and racial convergences that encode the ongoing realities of inequitable and unjust public policies in the United States.
-By taking an historical approach to the inadequacy of racial policies, Bell challenges readers to consider nuance in narratives of hope and trust in failed progress that has been maintained "throughout the history of civil rights policies," which Bell notes, "have been insufficient...to gain real relief from any branch of government" (p. 49).
+Derrick Bell's *Silent Covenants* [@bell2004silent] speaks on the involuntary sacrifices and racial convergences that encode the ongoing realities of inequitable and unjust public policies in the United States.
+Taking a critical historical approach to the ongoing inadequacy of racial policies, Bell challenges readers to consider nuance in narratives of hope and trust and in policies that can be historically mapped by failed progress.
+Bell considers legal cases to outline how these failures have been maintained "throughout the history of civil rights policies," which he notes, "have been insufficient...to gain real relief from any branch of government" (p. 49).
 When considering the injustices that Black people in the United States have and continue to suffer, Bell renders the long shadow of *Plessy* to pathways beyond the ideation of racial fortuity – or the condition where Black people's lives are subject to change, at the interplay of interest convergence and racial sacrifice.
 Here, with racial fortuity, Bell provides an intersectional class critique, connecting to the theme of materialism in his broader work, and challenges, as I argue, scholars to consider how our interests, rather than our moral considerations, drive much of our willingness in contemporary scholarship to not only witness but *allow* the subjugation of Black children, youth, and families in the United States [@dumas2014losing; @dumas2016real; @miraya2023clearing].
 
@@ -60,17 +61,81 @@ These extensions challenge us to refuse a singular focus, for example, on social
 
 ## Theoretical framework
 
-Text.
+### QuantCrit
 
-### Whiteness as property
+-   @tabron2023deeper
+
+-   @garcia2018quantcrit
+
+-   @gillborn2023quantcrit
+
+-   @castillo2022quantcrit
+
+-   @castillo2024transforming
+
+-   @turner2023rupturing
+
+-   @toldson2019no - I use Toldson's work to consider the relation to Black critical theory.
+
+### BlackCrit in Education
+
+### @dumas2016real
+
+-   @dumas2016real
+
+-   CRT in education is inadequate
+
+Black critical theory in Education
+
+### Black Educational Studies
+
+Black Educational Studies @miraya2023clearing
+
+-   Historical component as identified by others, such as @bell2004silent
+
+### Segregation vs. Desegregation
+
+Importantly, scholars have taken on different approaches to discussions of *Brown*.
+In some instances, scholars utilizes the term 'segregation' to relay the various historical features of how neighborhoods and schools have been segregated by race.
+In other instances, scholars' approaches have considered the various mechanisms through which public policies might respond to this segregation.
+These differences provide an important theoretical split in potential critical quantitative approaches to the question of advancing equity in the context of policies that uptake critical theories of race; that is, CRT, BlackCrit, and BES.
+In each of these frames, scholars deal more acutely with the extensions of critiques that position, increasingly, history as a central component to how we think about moving public policies forward to consider the value of Black children in America's schools, especially as secondary and postsecondary policies increasingly prevent districts and educational institutions from considering race as a central feature to the spatial features of modern analysis.
+
+Additionally, with the availability of new computational tools, there is added opportunity to take into serious consideration the ways that prior evidence in both qualitative and quantitative research pushes us to ask, again returning to Bell [-@bell2004silent; -@bell1991racial], around the reality and positionality of Black people in society, and Dumas [-@dumas2014losing; -@dumas2016against].
 
 ## Analytic framework
 
-Text.
+To advance the theoretical framework for the study, we use mathematical logic as an analytic approach to framing the conceptual replication of the study initially conducted by Giles in his 1974 article in the *Journal of Negro Education* [@giles1974measuring].
+Giles' work centered on the value of a model, the Index of Dissimilarity, in supporting researchers at the time in making sense of the various political contexts surrounding school desegregation.
+His analyses contributed to the discourses at the time a quantitative application of the ongoing racism encountered following *Brown v. Board*.
+In the current analyses, we consider the contemporary literature on Black education and critical quantitative approaches to consider the narratives that might allow us to examine, similar to Bell's analysis in *Silent Covenants* [@bell2004silent], and his related work on the *permanence* of how Black people experience racism.
 
-$$
+We begin the conceptual replication with a critical theory to advance the analytic framework.
+This theory is used to exemplify one example of how the analysis provided by Giles inserted some standard assumptions about race and racism that have been outlined in contemporary scholarship regarding scholars' approaches to the analysis of student level data.
+Here, we use the index of dissimilarity to also argue for some extensions to current approaches in QuantCrit in relation to the analysis of geospatial data, which the index of dissimilarity and other highly information indices, as noted by @chodrow2017structure, can be useful for in the analysis of contextual data.
+
+**Theorem**: *Standard geospatial measures of segregation, such as the Index of Dissimilarity (D), inherently assume the movement of Black youth, children, and families to achieve desegregation, reflecting an underlying anti-Black bias in its formulation and application to school desegregation efforts*.
+
+Consider the Index of Dissimilarity (D):
+
+$$ \dfrac{1}{2} \sum_{i=1} \big| \dfrac{b_i}{B} - \dfrac{w_i}{W} \big| $$
+
+1.  Interpretation of D: The index D represents the proportion of Black students that would need to move to different schools to achieve an even distribution relative to White students.
+2.  Assumption of movement:The formula implicitly assumes that to reduce D, the numerically smaller group (typically Black students in many contexts) would be the one to move.
+3.  Asymmetry in the formula:While the formula appears symmetric, in practice, when B\<WB\<W, reducing ∣biB−wiW∣∣Bbi​​−Wwi​​∣ is more easily achieved by changing bibi​ rather than wiwi​.
+4.  Historical context:In the context of school desegregation following Brown v. Board of Education, the burden of movement has historically fallen on Black students, often through busing programs
+5.  Reinforcement of existing power structures:By implicitly suggesting the movement of the minority group (Black students), the index reinforces existing power dynamics and fails to challenge the centrality of whiteness in educational spaces.
+6.  Neglect of systemic factors:The index focuses on numerical distribution without addressing underlying systemic issues that lead to segregation, such as housing policies, economic disparities, and institutional racism4.
+
+```         
+\begin{equation}
+
 \sum_{i=1} \big| \dfrac{b_i}{B} - \dfrac{w_i}{W} \big|
-$$
+
+\end{equation}
+```
+
+\$\$ \sum\_{i=1} \big\| \dfrac{b_i}{B} - \dfrac{w_i}{W} \big\| \$\$
 
 $RB_i$ refers to those students who are racialized as Black, whereas $RW_i$ refers to those students who are racialized as White, and the honorary whites.
 
@@ -116,7 +181,12 @@ Text.
 
 ## Zero point
 
-"Determining what condition or conditions constitute desegregation for a school district" [@giles1974measuring, p. 518]
+In his work, Giles discuss the various schooling contexts that will help "[determine] what condition or conditions constitute desegregation for a school district" [@giles1974measuring, p. 518].
+He considers the issue of voluntary of involuntary mandates for desegregation follow *Brown*.
+As discussed in the recent publications provided by the Spencer Foundation on the 70th anniversary of Brown, the dynamic conditions which constitute a consideration of *Brown's* promise require a complex analytic approach.
+
+Education researchers have taken on various models to consider the various complexities involved in modeling desegregation.
+For example, @reardon201460, considering the 60th anniversary of *Brown* analyzes various trends in the quantification of school segregation.
 
 Racial composition - Adam Clayton Powell in the language of the Massachusetts Act [@giles519]
 
@@ -171,3 +241,8 @@ Text.
 \newpage
 
 # References
+
+::: {#refs}
+:::
+
+# Appendix
