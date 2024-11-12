@@ -1,5 +1,5 @@
 ---
-title: "Critical Quantification and the Legacy of Brown v. Board: Challenging Traditional Concepts and Approaches"
+title: "Quantifying Brown: Challenges, Approaches, and the Topologies of Antiblackness"
 bibliography: brown-references.bib # include references file
 csl: apa.csl
 output:
@@ -25,224 +25,364 @@ editor_options:
 # Abstract
 
 The practice and process of quantification involves the measurement or numerical expression of attributes related to a specific phenomenon, event, or entity.
-This article takes a critical computational approach to examining school desegregation and quantification on this 70th anniversary of the 1954 *Brown v. Board of Education* decision.
-The analysis engages a 1974 article in the *Journal of Negro Education* by Michael Giles, "Measuring School Desegregation." In Giles' study, a segregation index was analyzed to frame the required "movement" of Black children and youth to help fulfill the perceived promise of *Brown*.
-The present study conducts a critical conceptual replication of Giles' work situated within a critical quantification framework that incorporates critical theories in Black education.
-While findings reveals how seemingly comprehensive models and technical language do not fully account for the complex social systems associated with school desegregation in the research literature, they also highlight an apathy in modern scholarship to maintain narratives of hope and survival.
-Critical quantification, however, provides a series of counter examples that can be leveraged for framing contemporary education policies and research practices.
-Implications for extending the discourses in quantitative critical theory, or QuantCrit, beyond critical statistical analysis to include spatial data are also provided.
+This article takes a critical quantitative approach to school desegregation on this 70th anniversary of *Brown*.
+The analysis engages a 1974 article by Michael Giles in the *Journal of Negro Education* titled “Measuring School Desegregation,” where a segregation index is used to quantify the “movement” of Black children and youth across schools in a district to help fulfill the perceived promise of *Brown*.
+In the present study, I conduct a critical conceptual replication of Giles’ work that incorporates research at the intersections of critical theory, Black education, and educational studies.
+The replication and analysis reveal much of what is known about quantitative applications to complex phenomenon, namely that seemingly comprehensive models and technical language do not fully account for the social, historical and political systems associated with school desegregation.
+An extension to contemporary perspectives on critical quantification, however, present a series of examples that can be leveraged to frame the failure of public policies.
+The need for extending current discussions at the intersection of critical theory and quantification beyond general linear models and related statistical analyses to include spatial data and what is termed as the *topological properties of antiblackness* in education is described.
 
-*Keywords*: *Brown v. Board of Education*, desegregation, segregation, race, modeling
+\noindent Keywords: *Brown v. Board of Education, desegregation, segregation, race, modeling*
 
 \newpage
 
 # Introduction
 
-Derrick Bell's *Silent Covenants* [@bell2004silent] speaks on the involuntary sacrifices and racial convergences that encode the ongoing realities of inequitable and unjust public policies in the United States.
-Taking a critical historical approach to the ongoing inadequacy of racial policies, Bell challenges readers to consider nuance in narratives of hope and trust and in policies that can be historically mapped by failed progress.
-Bell considers legal cases to outline how these failures have been maintained "throughout the history of civil rights policies," which he notes, "have been insufficient...to gain real relief from any branch of government" (p. 49).
-When considering the injustices that Black people in the United States have and continue to suffer, Bell renders the long shadow of *Plessy* to pathways beyond the ideation of racial fortuity – or the condition where Black people's lives are subject to change, at the interplay of interest convergence and racial sacrifice.
-Here, with racial fortuity, Bell provides an intersectional class critique, connecting to the theme of materialism in his broader work, and challenges, as I argue, scholars to consider how our interests, rather than our moral considerations, drive much of our willingness in contemporary scholarship to not only witness but *allow* the subjugation of Black children, youth, and families in the United States [@dumas2014losing; @dumas2016real; @miraya2023clearing].
+This paper considers the 1954 United States’ legal case of *Brown vs Board of Education of Topeka* [@supreme2004brown] to examine the conditions under which quantification and antiblackness in a geopolitical lens might be used to extend perspectives on mathematical modeling in relation to issues of racial injustice in relation to racialized toplogical structures of neighborhoods and schools.
+Racialized topological structures (RTS) are introduced and refer to the persistent patterns of racial inequality and segregation that are embedded within and reproduced by organizational and social systems.
+These structures can be understood as a network of interconnected racial schemas, rules, and resources that shape the distribution of power, opportunities, and outcomes across different racial groups, maintaining racial hierarchies even as surface-level policies or practices may change over time.
+Prior work across disciplines has made use of mathematical models around issues of justice, and specifically those issues that impact specific groups, such as those racialized as Black within the legal context of the United States [@darity2022here; @lobo2019racial].
+This paper argues that while traditional approaches to mathematical modeling often fail to attend to the complex and dynamic features of the social, economic, cultural, and geopolitical histories that help researchers make better sense of variations in how racism manifests, mathematical modeling in a critical quantitative framework may offer some important entry points and counterexamples to aid our thinking about the function of antiblackness in education, but also in global society more broadly.
 
-This article takes a critical quantification approach to extend, in essence, one of James Baldwin's famous quotes around progress.
-In 1989, the American writer, when considering, like Bell and other scholars (see, e.g., [-@berry2014examining], the history of systemic racism and failed progress in U.S. public policies asked: “You always told me it takes time. It has taken my father's time, my mother's time, my uncle's time, my brothers' and my sisters' time, my nieces' and my nephews' time. How much time do you want for your 'progress'?”
+This papers generates a set of considerations around the role and function of mathematical tools, such as postulates and range in considerations of measurement, when mapping sociological theories to mathematics – much in the tradition of mathematical sociology [@bonacich2012introduction; @coleman1964introduction; @sorensen1978mathematical].
+Readers are urged to consider both the issues and potential roles of a mathematical model, and how the practice of defining terminology and variables to make sense of nuances and differences that drive much of the contemporary scholarship and methodological approaches in the humanities and social sciences, is a useful endeavor.
+Mathematical sociology is an interdisciplinary field that uses formal mathematical models and tools to understand, analyze, and make sense of various social phenomena [@fararo2007mathematical].
+Methodologically, the practice involves applying mathematical techniques to formulate or make sense of sociological theories and to model social interactions and structures around some of the intuitive realities [@sorensen1978mathematical].
+In mathematical sociology, an attempt is made to take theory and intuition to define some parameters more formally [@coleman1964introduction].
+In the expanding of tradition of critical quantitative practice, this article asks what the potential pitfalls are and the possibilities of extending mathematical modeling to issues of segregation and desegregation beyond what is currently provided in the research literature.
 
-# Study Frameworks
+The primary aim of this paper is to consider a set of questions around the potential benefits, challenges, and pitfalls of using various measures of segregation to analyze and understand the persistence of antiblackness in the United States education system.
+To address this question, I present a set of postulates for framing segregation, followed by a set of conditions focused on race across the various scales and historical dimensions in the quantification of segregation.
+I then discuss the added benefit of extending current discourses in quantitative critical theory to include critical spatial data analysis and describe some of the *topological properties of antiblackness* in U.S. education.
+Many scholars have outlined the various conditions under which others should (and should not) frame and understand antiblackness [@brown2020anti; @hudson2014geographies; @olaloku2018afro; @sexton2012ante; @sharpe2016wake].
+For the purpose of the current analysis, antiblackness is defined in relation to the presence of what others have identified as antagonisms, housed in the beliefs, attitudes, actions, of educational practices that systematically deny, devalue, and marginalize Black people and those racialized as Black to not simply render them ineligible for full citizenship within a society, but to cast upon them the position of a disposable other [@dumas2014losing; @dumas2016against; @dumas2016real; @miraya2023clearing].
 
-## Conceptual framework
+# Conceptual Frameworks
 
-"Despite the fact that legal and administrative decisions concerning school desegregation have rested increas- ingly on quantitative concepts, little attention has been directed toward the development of a uniform and rigorous method for measuring school desegregation. The purpose of the present article is to suggest such a measure" [@giles1974measuring, p. 516].
+There are extensive resources, archival records, and research studies on *Brown* [@chestnut2004brown].
+These resources take theoretically and methodologially different approaches to develop a series of concepts through which they analyze the conditoins surrounding the decision.
+@giles1974measuring notes that “despite the fact that legal and administrative decisions concerning school desegregation have rested increasingly on quantitative concepts, little attention has been directed toward the development of a uniform and rigorous method for measuring school desegregation" (p. 516). The purpose his article was to suggest a measure but, in doing so, much of the social contexts and complexity of information integrated was left to be desired. In modern quantitative social sciences, for example, @chodrow2017structure notes that we should “view the problem of learning the structure of segregation as the task of ﬁnding interpretable units of spatial aggregation with boundaries that correspond to demographic transitions...[a] problem is a form of regionalization—spatially constrained clustering” (p. 11592). When taken in the context of educational theories, however, we are challenged to consider the role of clusters as a singular angle of critical theories within broader social and historical realities, especially in the diverse narratives on Black education [@king2006black; @miraya2023clearing; @tillman2008sage].
 
-@chodrow2017structure notes that we should "view the problem of learning the structure of segregation as the task of ﬁnding interpretable units of spatial aggregation with boundaries that correspond to demographic transitions. This problem is a form of regionalization—spatially constrained clustering" (p. 11592).
-When taken in the context of educational theories, such as @wells1994perpetuation, we are challenged to consider the role of critical theories in advanced analytic techniques within social and historical realities of inequity in the diverse narratives on Black education [@king2006black; @miraya2023clearing; @tillman2008sage].
+The introduction of these advanced quantitative inquiries and computational technologies present new opportunities for researchers to extend the specificity lacking in Giles’ study but the question still remains if this avenue is not only a useful route for scholars to take but one that might present opportunities for further freedom dreaming in education as outlined by @miraya2023clearing; the authors "forward a more holistic understanding of the term [antiblackness], examining conceptualizations that predate the proliferation of Afropessimist thought" and extend their "thoughts on what it means to offer social analyses that attend to antiblackness through the lens of Black Education Studies, unpacking how and why scholars might employ this framing in a manner that centers Black life and living more broadly, despite the imposing threat of social death endemic to antiblackness" (p. 151).
 
-These diverse approaches, then, challenge us to push beyond narratives of hope and survival, towards those that can increasingly dismantle, in the abolitionist tradition, an increasing willingness to allow for some Black children to thrive but not *all* Black children [@love2019we].
-These extensions challenge us to refuse a singular focus, for example, on social and emotional learning for Black and other children racialized as non-white [@camangian2022social].
+## Quantitative Critical Race Theory
 
-## Theoretical framework
+Quantitative Critical Race Theory, or 'QuantCrit', is an expanding analytical framework that applies Critical Race Theory principles to quantitative research methods and data analysis [@garcia2018quantcrit; @gillborn2023quantcrit].
+The framework challenges traditional approaches to quantitative research, particularly in education and social sciences, by critically examining the assumptions, biases, and power structures embedded in statistical methods and interpretations.
+The five key principles of QuantCrit include: recognizing the centrality of racism in society, acknowledging that numbers are not neutral, understanding that categories are socially constructed, emphasizing that data cannot “speak for itself,” and maintaining a social justice orientation [@castillo2022quantcrit; @gillborn2023quantcrit].
+QuantCrit encourages researchers to critically examine their research questions, variable construction, and analytical choices, while considering how racism and other forms of oppression might be revealed through differential outcomes in statistical analyses [@suzuki2021using].
 
-### QuantCrit
+The application of QuantCrit is interdisciplinary, extending beyond education to medicine and the social sciences [@castillo2024transforming].
+Researchers using QuantCrit are encouraged to use intersectional approaches that account for multiple, simultaneous identities, challenge traditional interpretations of statistical significance and effect sizes, and contextualize findings within broader historical and social contexts of inequality [@garcia2018quantcrit].
+Importantly, QuantCrit is not just about applying critical principles at the end of a study, but about integrating critical perspectives throughout the entire research process, from conceptualization to dissemination of results [@castillo2022quantcrit].
+While the approach represents a growing movement to make quantitative research more equitable, contextualized, and oriented towards social justice, while also acknowledging the researcher’s own positionality and potential biases in data interpretation [@tabron2023deeper], there are concerns about the lack of specificity attached to some of the parallel theories that extend Black critical theories in education [@toldson2019no; @turner2023rupturing; @dumas2016real].
 
--   @tabron2023deeper
+## Black Critical Theory
 
--   @garcia2018quantcrit
+Black critial theory [@dumas2016real] importantly challenges some of the root notions of QuantCrit.
+These challenges are present in both the reliance on CRT as a theory of Black people and considerations about the historical notions of 'antiblackness' in considerations of Black educational studies (BES) [@miraya2023clearing].
+Theses approaches challenge methodological inquiries to push beyond contemporary narratives and move towards those that can increasingly provide opportunities to discuss, in relation to the abolitionist tradition, the expanding willingness to allow for some Black children to thrive but not *all* Black children [@love2019we; @givens2021fugitive].
+These extensions also challenge us to refuse a singular focus, for example, within research on the social and emotional learning for Black and other children racialized as non-white [@camangian2022social] in the case for teaching and learning; but examine the systems to which sit at the root of why broader and multi-level systems are not the issue in all modern analyses of schools and schooling.
+We argue that a theoretical entry into doing so begins with the inclusion of modern computational tools around critical and abstract understandings of quantitative approaches.
 
--   @gillborn2023quantcrit
+Importantly, these scholars take on different approaches to discussions around the promise of *Brown*.
+In some instances, scholars reframe the use of the term ‘segregation’ to relay the various historical features of how neighborhoods and schools have been structured as a series of antagonisms [@dumas2014losing] . In other instances, scholars’ approaches have considered the various mechanisms through which social policies might respond to this segregation [@wells1994perpetuation]. These differences present important theoretical shifts in the potential quantitative approaches to the question of advancing equity for all children versus, in another case, 'freedom dreaming' [@miraya2023clearing]. In each of these frameworks, scholars deal more acutely with the extensions of critiques that position, increasingly, history as a central component to how we think about moving public policies forward to consider the impact on Black children in America’s schools. With the availability of new computational tools, there is added opportunity to take into serious consideration the ways that prior evidence in both qualitative and quantitative research pushes us to ask about the material conditions [@bell2004silent] and positional realities [@sexton2012ante] of Black people in the broader society, and in schools [@dumas2014losing; -@dumas2016against].
 
--   @castillo2022quantcrit
+## Black Educational Studies
 
--   @castillo2024transforming
+To advance the theoretical framework for the study, we build on the research outlining what might constitute Black Educational Studies, or BES [@miraya2023clearing].
+In this paper, I use mathematical logic as an analytic entry to help frame the conceptual replication around the spatial realities of Black children and youth in U.S. education systems.
+In a study of *Brown* in a 1974 article in the *Journal of Negro Education* [@giles1974measuring], Giles centered on a mathematical model, the Index of Dissimilarity ($D$), to help readers make sense of the quantitative realities surrounding school desegregation.
+His analysis contributed to the discourses at the time around the value of quantitative applications of structural forms of racism encountered following *Brown* many of the social and political realities were not prioritized.
+In the current analyses, I consider the contemporary literature on Black education and in BES to understand how they might allow us to examine the *permanence* of how Black people experience racism [@bell1991racial].
 
--   @turner2023rupturing
-
--   @toldson2019no - I use Toldson's work to consider the relation to Black critical theory.
-
-### BlackCrit in Education
-
-### @dumas2016real
-
--   @dumas2016real
-
--   CRT in education is inadequate
-
-Black critical theory in Education
-
-### Black Educational Studies
-
-Black Educational Studies @miraya2023clearing
-
--   Historical component as identified by others, such as @bell2004silent
-
-### Segregation vs. Desegregation
-
-Importantly, scholars have taken on different approaches to discussions of *Brown*.
-In some instances, scholars utilizes the term 'segregation' to relay the various historical features of how neighborhoods and schools have been segregated by race.
-In other instances, scholars' approaches have considered the various mechanisms through which public policies might respond to this segregation.
-These differences provide an important theoretical split in potential critical quantitative approaches to the question of advancing equity in the context of policies that uptake critical theories of race; that is, CRT, BlackCrit, and BES.
-In each of these frames, scholars deal more acutely with the extensions of critiques that position, increasingly, history as a central component to how we think about moving public policies forward to consider the value of Black children in America's schools, especially as secondary and postsecondary policies increasingly prevent districts and educational institutions from considering race as a central feature to the spatial features of modern analysis.
-
-Additionally, with the availability of new computational tools, there is added opportunity to take into serious consideration the ways that prior evidence in both qualitative and quantitative research pushes us to ask, again returning to Bell [-@bell2004silent; -@bell1991racial], around the reality and positionality of Black people in society, and Dumas [-@dumas2014losing; -@dumas2016against].
-
-## Analytic framework
+# Analytic Frameworks
 
 To advance the theoretical framework for the study, we use mathematical logic as an analytic approach to framing the conceptual replication of the study initially conducted by Giles in his 1974 article in the *Journal of Negro Education* [@giles1974measuring].
 Giles' work centered on the value of a model, the Index of Dissimilarity, in supporting researchers at the time in making sense of the various political contexts surrounding school desegregation.
 His analyses contributed to the discourses at the time a quantitative application of the ongoing racism encountered following *Brown v. Board*.
 In the current analyses, we consider the contemporary literature on Black education and critical quantitative approaches to consider the narratives that might allow us to examine, similar to Bell's analysis in *Silent Covenants* [@bell2004silent], and his related work on the *permanence* of how Black people experience racism.
 
-We begin the conceptual replication with a critical theory to advance the analytic framework.
-This theory is used to exemplify one example of how the analysis provided by Giles inserted some standard assumptions about race and racism that have been outlined in contemporary scholarship regarding scholars' approaches to the analysis of student level data.
-Here, we use the index of dissimilarity to also argue for some extensions to current approaches in QuantCrit in relation to the analysis of geospatial data, which the index of dissimilarity and other highly information indices, as noted by @chodrow2017structure, can be useful for in the analysis of contextual data.
+## Specificity versus generalization
 
-**Theorem**: *Standard geospatial measures of segregation, such as the Index of Dissimilarity (D), inherently assume the movement of Black youth, children, and families to achieve desegregation, reflecting an underlying anti-Black bias in its formulation and application to school desegregation efforts*.
+We begin the conceptual replication with a critical theory to advance the analytic framework and the difference between specificity and generalization.
+This framing, between how specific we would like to be versus how general we’d like to describe a social process *begins* the act, at least in the existing framework, of scale that informs the use of a set of values across a range of possible inputs.
+These inputs inform the model’s outputs and can be used to generate a set of focal points – we use the conceptual replication as one example of how this occurs in the analysis provided by Giles [-@giles1975black].
+The act of specificity versus generalization is inserted the stated or standard assumptions about race and racism that have been prioritized in not only the discourses mentioned but the parameter of the models.
 
-Consider the Index of Dissimilarity (D):
+When we take an opportunity nto consider the increasing and important specificity of contemporary scholarship regarding scholars’ approaches to the analysis of student level data, I examine how Giles’ work on the index of dissimilarity provides a set of important inquiries to the ongoign attempts to improve modeling in relation to *Brown*.
+Namely, I argue that a wholesale dismissal of these attempts is neither productive or scholarly in nature.
+I also also argue that for some extensions, however, their theoretical starting points may inform a wholesale dismissal.
+In this case, however, an “honest” approach to making sense of the model (and not simply the methodological focus) brings us to current approaches in QuantCrit.
 
-$$ \dfrac{1}{2} \sum_{i=1} \big| \dfrac{b_i}{B} - \dfrac{w_i}{W} \big| $$
+## Segregation versus desegregation
 
-1.  Interpretation of D: The index D represents the proportion of Black students that would need to move to different schools to achieve an even distribution relative to White students.
-2.  Assumption of movement:The formula implicitly assumes that to reduce D, the numerically smaller group (typically Black students in many contexts) would be the one to move.
-3.  Asymmetry in the formula:While the formula appears symmetric, in practice, when B\<WB\<W, reducing ∣biB−wiW∣∣Bbi​​−Wwi​​∣ is more easily achieved by changing bibi​ rather than wiwi​.
-4.  Historical context:In the context of school desegregation following Brown v. Board of Education, the burden of movement has historically fallen on Black students, often through busing programs
-5.  Reinforcement of existing power structures:By implicitly suggesting the movement of the minority group (Black students), the index reinforces existing power dynamics and fails to challenge the centrality of whiteness in educational spaces.
-6.  Neglect of systemic factors:The index focuses on numerical distribution without addressing underlying systemic issues that lead to segregation, such as housing policies, economic disparities, and institutional racism4.
+Importantly, scholars have taken on different approaches to discussions of *Brown*.
+In some instances, scholars utilizes the term ‘segregation’ to relay the various historical features of how neighborhoods and schools have been segregated by race.
+In other instances, scholars’ approaches have considered the various mechanisms through which public policies might respond to this segregation.
+These differences provide an important theoretical split in potential critical quantitative approaches to the question of advancing equity in the context of policies that uptake critical theories of race; that is, CRT, BlackCrit, and BES.
+In each of these frames, scholars deal more acutely with the extensions of critiques that position, increasingly, history as a central component to how we think about moving public policies forward to consider the value of Black children in America’s schools, especially as secondary and postsecondary policies increasingly prevent districts and educational institutions from considering race as a central feature to the spatial features of modern analysis.
+Additionally, with the availability of new computational tools, there is added opportunity to take into serious consideration the ways that prior evidence in both qualitative and quantitative research pushes us to ask, again returning to [@bell1991racial; @bell2004silent], around the reality and positionality of Black people in society, and [@dumas2014losing; -@dumas2016against].
 
-```         
-\begin{equation}
+## Between-school versus within-school segregation
 
-\sum_{i=1} \big| \dfrac{b_i}{B} - \dfrac{w_i}{W} \big|
+Between-school segregation refers to the uneven distribution of students from different racial or ethnic groups across schools within a district or larger geographic area.
+It often reflects residential segregation patterns and can result from school assignment policies, school choice programs, or demographic shifts.
+Within-school segregation, also known as classroom-level segregation, refers to the uneven distribution of students from different racial or ethnic groups across classrooms or academic programs within the same school.
+Within-school segregation is measured by comparing the racial/ethnic composition of individual classrooms or programs to that of the overall school.
+It can result in students from different racial or ethnic backgrounds having vastly different educational experiences and opportunities, even while attending the same school.
+Both types of segregation are typically measured using indices like the Index of Dissimilarity, which quantifies the degree of unevenness in the distribution of different groups.
+Importantly, research has shown that these two forms of segregation can be inversely related.
+As studies have found, when between-school segregation decreases (i.e., schools become more racially diverse), within-school segregation often increases.
+This suggests that efforts to integrate schools at the district level may sometimes lead to increased separation within those schools, potentially through mechanisms like academic tracking or course selection patterns.
 
-\end{equation}
+# Mathematical models
+
+To inform our use of the model, I begin by establishing a set of focus contexts and conditions related to *Brown* and use them to discuss the Index of Dissimilarity and school-level segregation.
+These postulates will serve as a foundation to the assumptions for analyzing the impact of the decision and its relationship to quantifying segregation.
+These are as follows: (1) Despite the Brown v. Board of Education decision declaring state-mandated segregation of public schools unconstitutional, segregation has continued for at least 70 years or more, (2) de jure segregation was officially ended within policies by the decision, but de facto segregation persists due to various socioeconomic factors, (3) residential patterns significantly influence school attendance zones and, consequently, school composition, (4) the Index of Dissimilarity (D) can be applied to measure school segregation levels, similar to its use in residential segregation studies, and (5) a decrease in the Index of Dissimilarity over time would indicate progress towards desegregation in schools.
+I then use these postulates to apply to the modified Index of Dissimilarity.
+
+## Model 1: Measures of Segregation
+
+Standard geospatial measures of segregation, such as the Index of Dissimilarity (D), inherently assume the movement of Black youth, children, and families to achieve desegregation, reflecting an underlying antiblack bias in its formulation and application to school desegregation efforts.
+For the conceptual replication, we consider the Index of Dissimilarity (D):
+
+$$ D = \dfrac{1}{2} \sum_{i=1}^{n} \Big| \dfrac{a_i}{A} - \dfrac{b_i}{B} \Big| $$
+
+D represents the index of dissimilarity itself, which ranges from $0$ (complete integration) to $1$ (complete segregation).
+The summation symbol ($\Sigma$) indicates that we’re adding up values across all geographic units, from $i=1$ to $n$, where $n$ is the total number of units (e.g., neighborhoods or census tracts) in the area being studied.
+The variable $a_i$ represents the population of group $A$ in the $i$th geographic unit, while $A$ is the total population of group $A$ in the entire area.
+Similarly, $b_i$ is the population of group $B$ in the $i$th unit, and $B$ is the total population of group $B$ in the whole area.
+The vertical bars $|$ $x$ $|$ denote the absolute value of a given value, here $x$, where negative differences are treated as positive.
+The fraction $1/2$ at the beginning of the formula adjusts the final result to calculate the average difference in the proportional distribution of the two groups across all geographic units, providing a measure of how unevenly the groups are distributed relative to each other.
+
+In @giles1974measuring, the index represents the proportion of Black students that would need to move to different schools to achieve an even distribution relative to White students.
+The formula implicitly assumes that to reduce $D$, the numerically smaller group (typically Black students in many contexts) would be the one to move.
+In the context of school desegregation, the burden of movement has historically fallen on Black students, often through busing programs.
+By implicitly suggesting the movement of the minority group (Black students), the index reinforces existing power dynamics and fails to challenge the centrality of whiteness in educational spaces.
+The index focuses on numerical distribution without addressing underlying systemic issues that lead to segregation, such as housing policies, economic disparities, and institutional racism.
+
+Some important limitations of the model exist in relation to issues of measurement, interpretation, thresholds, temporal and comparative analysis, and policy evaluations.
+The Index of Dissimilarity for schools would compare the distribution of two groups (e.g., Black and White students) across different schools within a district or larger geographic area.
+The resulting D value would range from 0 (complete integration) to 1 (complete segregation), often expressed as a percentage.
+Values between $0$ and $30$ percent indicate low segregation, $31 - 60$ percent indicate moderate segregation, and $61 - 100$ percent indicate high segregation.
+By calculating $D$ for different years, we can track changes in school segregation levels over time, potentially revealing the long-term effects of *Brown*.
+The Index allows for comparisons between different school districts or regions, helping identify areas where desegregation efforts have been more or less successful.
+Changes in $D$ can be used to assess the effectiveness of various desegregation policies implemented in the wake of the Brown decision.
+It is important to note that while $D$ measures evenness of distribution, it doesn’t account for other factors like the quality of education or within-school segregation.
+
+## Model 2: Entropy-based Segregation
+
+One concern cited about the dissimilarity index is that it only measures segregation between two groups, and that those two groups tend to be based on a comparison of Black and white children.
+There are also concerns around economic segregation that require additional concepts to inform our mathematical model.
+Owens et al. (2014) consider trends in economic segregation of schools that could inform a theoretical inquiry into possible intersections with different models.
+These considerations essentially call for a more focused analysis in QuantCrit in education on the diversity of Black children and youth, and the importance of the historical features of that diversity, as discussed by Miraya Ross & Givens (2023), which challenges ongoing approaches to issues of race which group Black students in a monolith framing.
+If this inquiry is enacted upon, two such cases exist as a possible start.
+
+Entropy-based segregation indices are statistical measures that quantify the level of segregation between groups in a population by utilizing the concept of entropy from information theory.
+The Mutual Information Index (M) and Theil’s Information Index (H) are entropy-based segregation measures that can be calculated using R.
+These indices capture segregation as the extent to which groups have different distributions across units (e.g., schools or neighborhoods) compared to the overall population distribution.
+For a dataset T, M is computed as:
+
+$$
+M(T) = \sum_{u=1}^{U} \sum_{g=1}^{G} p_{ug} log \dfrac{p_{ug}}{p_u p_g}
+$$
+
+Here, U is the total number of units u, G is the total number of groups g, and p_u g is the joint probability of being in unit u and group g, with p_u and p_g referring to unit and group probabilities, respectively.
+Theil’s H for the same dataset T can then be calculated as:
+
+$$
+H(T) = \dfrac{M(T)}{E(T)}
+$$
+
+where $E(T)$ is the entropy of $T$, normalizing H to range between values of $0$ and $1$ [@walker2023analyzing].
+These functions allow for the calculation of both M and H indices, providing comprehensive measures of segregation that account for multiple groups and units simultaneously.
+The $M$ index measures the average change in entropy when moving from the overall population distribution to the distribution within each unit, while the H index is a normalized version of $M$.
+These indices possess desirable properties including decomposability, which allow for the analysis of segregation at multiple levels (e.g., local and global) and across different dimensions (e.g., within and between groups).
+Entropy-based indices provide a nuanced approach to measuring segregation that can account for multiple groups simultaneously and offer insights into the information content of group distributions across units [@frankel2011measuring; @mora2011entropy].
+
+## Model 3: Geographically Weighted Regression
+
+The third model is the Geographically Weighted Regression (GWR) model provided by @lu2014gwmodel in the `GWmodel` package.
+GWR models tends to provide the ability to associate regions with more specific measures, a phenomenon known as *spatial non-stationarity* with GWRM @brunsdon1996geographically.
+
+$$ Y_i = a_i + \sum_{k=1}^{m} \beta_{ik} X_{ik} + \epsilon_{i}$$
+
+where, per @walker2023analyzing, "the model intercept, parameters, and error term are all location-specific" for the purposes of the model.
+$B_{ik}$ represents a local regression coefficient for predictor $k$ (of the total number of predictors $m$) that is specific to location $i$.
+
+# Data
+
+We use data on three states in the United States: California, North Carolina, and Texas.
+The data on California returns six regions: Los Angeles, San Francisco, Sacramento, San Diego, San Jose, and Riverside-San Bernadino.
+The data on North Carolina based on the provided metric returns the Charlotte, NC-SC urban area and the Raleigh region.
+The data on Texas returns six urban areas: McAllen, Houston, Dallas-Fort Worth-Arlington, Austin, San Antonio, and El-Paso, TX-NM regions.
+
+| State | 2019 state population | Number of school districts | Total k-12 students (2019) | Selected urban areas |
+|---------------|---------------|---------------|---------------|---------------|
+| California | 39,512,223 | 1,037 | 6,186,000 | Los Angeles, San Francisco, Sacramento, San Diego, San Jose, Riverside-San Bernardino |
+| Texas | 28,995,881 | 1,200 | 5,400,000 | McAllen, Houston, Dallas-Fort Worth-Arlington, Austin, San Antonio, El Paso |
+| North Carolina | 10,488,084 | 115 | 1,500,000 | Charlotte, Raleigh |
+
+# Findings
+
+Unlike Giles, this critical conceptual replication uses a data-informed approach to consider the various metrics through which we might consider measuring segregation.
+In his work, Giles discuss the various schooling contexts that will help “[determine] what condition or conditions constitute desegregation for a school district” [@giles1974measuring, p. 518].
+He considers the issue of voluntary of involuntary mandates for desegregation follow *Brown*.
+As discussed in the recent publications provided by the Spencer Foundation on the 70th anniversary of Brown, the dynamic conditions which constitute a consideration of *Brown’s* promise require a complex analytic approach.
+Education researchers have taken on various models to consider the various complexities involved in modeling desegregation.
+For example, @reardon201460, considering the 60th anniversary of *Brown*, analyzes various trends in the quantification of school segregation.
+
+## State-level data on two groups
+
+```{r, include=F}
+library(tidycensus)
+library(tidyverse)
+library(segregation)
+library(tigris)
+library(sf)
 ```
 
-\$\$ \sum\_{i=1} \big\| \dfrac{b_i}{B} - \dfrac{w_i}{W} \big\| \$\$
+```{r, include=F, echo=F}
 
-$RB_i$ refers to those students who are racialized as Black, whereas $RW_i$ refers to those students who are racialized as White, and the honorary whites.
+# Get NC tract data by race/ethnicity
+nc_acs_data <- get_acs(
+  geography = "tract",
+  variables = c(white = "B03002_003",
+                black = "B03002_004",
+                asian = "B03002_006",
+                hispanic = "B03002_012"),
+  state = "NC",
+  geometry = TRUE,
+  year = 2019
+)
 
-$$
-\sum_{i=1} \big| \dfrac{Rb_i}{RB} - \dfrac{Rw_i}{RW} \big|
-$$
+# Use tidycensus to get urbanized areas by population with geometry,
+# then filter for those that have populations of 750,000 or more
+us_urban_areas <- get_acs(
+  geography = "urban area",
+  variables = "B01001_001",
+  geometry = TRUE,
+  year = 2019,
+  survey = "acs1") %>%
+  filter(estimate >= 750000) %>%
+  transmute(urban_name = str_remove(NAME,
+                                    fixed(", Urbanized Area (2019)")))
 
-# Data and Methods
+# Compute an inner spatial join between the NC tracts and the
+# urbanized areas, returning tracts in the largest California urban
+# areas with the urban_name column appended
+nc_urban_data <- nc_acs_data %>%
+  st_join(us_urban_areas, left = FALSE) %>%
+  select(-NAME) %>%
+  st_drop_geometry()
 
-Text.
+# Compute an inner spatial join between the NC tracts and the
+# urbanized areas, returning tracts in the largest urban
+# areas with the urban_name column appended
+nc_urban_data <- nc_acs_data %>%
+  st_join(us_urban_areas, left = FALSE) %>%
+  select(-NAME) %>%
+  st_drop_geometry()
 
-## Data
+nc_urban_data %>%
+  filter(variable %in% c("white", "black")) %>%
+  group_by(urban_name) %>%
+  group_modify(~dissimilarity(.x,
+                              group = "variable",
+                              unit = "GEOID",
+                              weight = "estimate")) %>%
+  arrange(desc(est))
 
-Text.
-
-## Methods
-
-Conceptual replication.
-
-### Schools as Blocks
-
-### Students as Households
-
-### Information
-
-More advanced analyses may follow Chodrow [-@chodrow2017structure] to consider the ways that complex information may inform our insights about framing a measure of dissimilarity in residential segregation to a measure of schools and students.
-
-# Analysis
-
-Text.
-
-| School | White Enrollment | Non-White Enrollment  | Difference        |
-|--------|------------------|-----------------------|-------------------|
-| A      | 500              | 0                     | .50               |
-| B      | 500              | 500                   | .00               |
-| C      | 500              | 0                     | .50               |
-| D      | 0                | 500                   | .50               |
-| E      | [0]{.underline}  | [500]{.underline}     | [.50]{.underline} |
-|        | 1500             | 1500                  | 2.00              |
-|        |                  | **Segregation Index** | 1.00              |
-
-: Table. Segregation Index in a Completely Segregated School System
-
-## Zero point
-
-In his work, Giles discuss the various schooling contexts that will help "[determine] what condition or conditions constitute desegregation for a school district" [@giles1974measuring, p. 518].
-He considers the issue of voluntary of involuntary mandates for desegregation follow *Brown*.
-As discussed in the recent publications provided by the Spencer Foundation on the 70th anniversary of Brown, the dynamic conditions which constitute a consideration of *Brown's* promise require a complex analytic approach.
-
-Education researchers have taken on various models to consider the various complexities involved in modeling desegregation.
-For example, @reardon201460, considering the 60th anniversary of *Brown* analyzes various trends in the quantification of school segregation.
-
-Racial composition - Adam Clayton Powell in the language of the Massachusetts Act [@giles519]
-
-Text.
-
-| School | White Enrollment  | Non-White Enrollment  | Difference        |
-|--------|-------------------|-----------------------|-------------------|
-| A      | 500               | 500                   | .00               |
-| B      | 500               | 500                   | .00               |
-| C      | 500               | 500                   | .00               |
-| D      | 500               | 500                   | .00               |
-| E      | [500]{.underline} | [500]{.underline}     | [.00]{.underline} |
-|        | 2500              | 2500                  | 0.00              |
-|        |                   | **Segregation Index** | .00               |
-
-: Table. Segregation Index in a Seemingly Desegregated School System
-
-## Percent points
+```
 
 @giles1974measuring identifies a set of percent point that serve as measures of desegregation.
-
-**The 90-percent point**: The "90 per cent or more whites" [@giles1974measuring, p. 518] enrollment point that defined desegregation The Allen Report of 1964 [@allen]; the 90 percent point is also used by the HEW's Office of Civil Rights [@hew].
-
-Text.
-
-| School | White Enrollment  | Non-White Enrollment  | Difference        |
-|--------|-------------------|-----------------------|-------------------|
-| A      | 500               | 100                   | .40               |
-| B      | 0                 | 500                   | .50               |
-| C      | 500               | 500                   | .00               |
-| D      | 500               | 200                   | .30               |
-| E      | [500]{.underline} | [300]{.underline}     | [.20]{.underline} |
-|        | 2500              | 2500                  | 1.40              |
-|        |                   | **Segregation Index** | .70               |
-
-: Table. Segregation Index in a Partially De/segregated School System
-
-**The 50-percent point**: Text.
-
-**The 89-percent and 49-percent points**: Text.
-
-**The 25-percent point**: Text.
+He provides notes in his original study around the use of different percentation points.
+The 90-percent point, for example, is defined as “90 per cent or more whites” [@giles1974measuring, p. 518] where enrollment points that defined desegregation were provided in The Allen Report of 1964 [@relations1964allen]; here the 90 percent point was also used by the HEW’s Office of Civil Rights [@bullock1984new; @giles1974measuring].
+I use the averages from the education data to generate a series of geographic conditions for variations in segregated school systems.
 
 # Discussion
 
-Text.
+The topological structure of U.S. educational spaces refers to the fundamental organization and relationships between different elements within the education system that remain invariant under continuous transformations.
+This structure encompasses the interconnections between schools, districts, and other educational entities, as well as the spatial and relational aspects of learning environments.
+Topological properties, in this context, are the characteristics of these educational spaces that persist regardless of deformations or changes in scale, such as connectivity, compactness, and the presence of boundaries or “holes” in the system.
+In the U.S. education system, we can consider several topological properties.
+The connectivity of the system is evident in how schools are linked within districts and how districts are connected at state and national levels.
+The multi-spatial nature of learning contexts, as highlighted in the research, forms a complex topology where physical and digital spaces intersect and overlap.
+This creates a non-linear, multidimensional structure where learning activities emerge from the relationships between various actants, including physical spaces, digital platforms, devices, educators, and students.
+
+The boundaries in this topological space are often fluid, with the distinction between “real” and “digital” becoming increasingly blurred.
+This is particularly relevant when considering the concept of learning spaces as contingent assemblages of human and non-human actors.
+The topology of U.S. educational spaces also exhibits certain “holes” or gaps, which may represent disparities in resource distribution, access to quality education, or segregation patterns.
+Analyzing the topological properties of educational spaces can provide insights into persistent issues like segregation.
+For instance, the distribution of students across schools and districts forms a complex topological structure that can be studied using measures of dissimilarity or other segregation indices.
+These measures help reveal the underlying patterns of connectivity and separation within the educational landscape.
+Understanding the topological structure and properties of U.S. educational spaces offers a framework for examining how changes in one part of the system might affect others, and how certain educational inequities persist despite surface-level transformations.
+This approach allows researchers and policymakers to consider the relational aspects of education, moving beyond simple geographic or demographic analyses to understand the deeper, more persistent structures that shape educational experiences and outcomes.
+
+## The topology of antiblackness in U.S. education
+
+RTS (racialized topological structures), and the specific topology of antiblackness in the U.S. education systems, suggests an examination of the structural and spatial characteristics of antiblack racism within the educational landscape of the United States.
+This perspective aligns with the concept of topology in mathematics, which studies properties that remain unchanged under continuous deformations.
+In the context of antiblackness in education, this topological approach would focus on the persistent, interconnected nature of racial inequities that maintain their fundamental structure despite surface-level changes or reforms.
+
+Postulates are foundational statements in logical and mathematical systems, often used interchangeably but with subtle distinctions.
+Axioms are generally considered self-evident truths that require no proof, while postulates are assumptions specific to a particular theory or context that are accepted without proof for the purpose of subsequent reasoning.
+In the development of formal social theories for mathematical inquiry, postulates can be particularly useful.
+They allow researchers to establish specific assumptions about social phenomena, human behavior, or societal structures that may not be universally self-evident but are necessary for building a coherent theoretical framework.
+By clearly stating these postulates, social scientists can create mathematical models that quantify and analyze complex social dynamics.
+For instance, a postulate in social network theory might assume that individuals are more likely to form connections with those who share similar attributes.
+This assumption, while not universally true, provides a starting point for developing mathematical models of network formation and evolution.
+Postulates in social theories thus bridge the gap between abstract mathematical concepts and the nuanced realities of social systems, enabling rigorous analysis and prediction of social phenomena through mathematical means.
+While more advanced analyses may follow (Chodrow, 2017) to consider the ways that complex information may inform our insights about framing a measure of dissimilarity in residential segregation to a measure of schools and students, we develop a set of foundational tools to examine the function in this case.
+
+Developing a set of postulates to explain the topological structure of antiblack systems in the U.S. involves identifying fundamental principles that govern how antiblackness manifests and persists across various educational spaces and contexts.
+Prior frameworks by scholars have been used to consider some of the foundations and possibilities in relation to Black youth (Bullock et al., 2012; Martin, 2011) and considerations around mathematical methods (Shulman, 1996).
+The presented axioms might address concepts such as the connectivity of discriminatory practices across different levels of the education system, the persistence of racial segregation despite policy changes, the formation of boundaries that limit opportunities for Black students, and the multidimensional nature of antiblack practices embedded in curriculum, discipline policies, and resource allocation.
+These postulates provide a theoretical foundation for understanding how antiblackness in education maintains its core features while adapting to different contexts, much like how topological properties remain invariant under continuous transformations.
+
+-   **Postulate 1 (Boundary formation).** Antiblackness manifests in the formation of topological boundaries within educational spaces, creating distinct regions of resource allocation, opportunity, and academic tracking that disproportionately disadvantage Black students.
+
+-   **Postulate 2 (Persistence under transformation).** The topological structure of antiblackness in education systems remains invariant under superficial policy transformations, preserving fundamental inequities despite changes in educational rhetoric or surface-level reforms.
+
+-   **Postulate 3 (Multidimensional embedding).** Antiblackness is embedded in multiple dimensions of the educational topology, including physical space, curriculum, pedagogy, and disciplinary practices, creating a complex network of interconnected challenges for Black students.
+
+-   **Postulate 4 (Temporal persistence)**.
+    The topological structure of antiblackness in education demonstrates temporal persistence, maintaining core features across generations despite changes in legal and social contexts.
+
+-   **Postulate 5 (Scalar invariance)**.
+    Antiblackness manifests at multiple scales within the educational topology, from individual classrooms to district-wide policies, exhibiting similar structural properties across these different levels of analysis.
+
+Extensions of these postulates should also consider the intersectionality of oppression as well as the concept of fugitive spaces in education [@givens2021fugitive].
+The topological structure of anti-Blackness intersects with other forms of oppression, creating compound effects at the intersection points that disproportionately affect Black students with multiple marginalized identities.
+Within the broader anti-Black educational topology, there exist sub-altern spaces of resistance and affirmation, known as “fugitive spaces,” where Black educational experiences can be reimagined and cultivated [@miraya2023clearing; @givens2016grammar].
+These topological properties extend beyond individual schools and boundaries and encompasses formations of digital, social, and virtual space.
 
 # Conclusion
 
-Text.
+The topology of U.S. educational spaces is deeply intertwined with the persistent presence of antiblackness, creating a complex structure that perpetuates inequalities and marginalization of Black students.
+This topological structure is characterized by interconnected systems of schools, districts, and policies that, despite surface-level changes, maintain fundamental inequities.
+The persistent nature of anti-blackness within this topology is evident in the way it shapes the experiences of Black students across various educational settings, from urban to suburban and rural areas.
+
+Within this topological framework, antiblackness manifests in multiple dimensions.
+At the macro level, it is embedded in policies and funding structures that systematically underfund schools serving predominantly Black communities.
+This creates “holes” in the educational landscape where resources and opportunities are scarce.
+At the meso level, antiblackness is reflected in the segregation patterns that persist within and between school districts, forming boundaries that isolate Black students from educational resources and diverse learning environments.
+At the micro level, it permeates classroom interactions, curriculum choices, and disciplinary practices that often devalue Black students’ experiences and potential.
+
+The connectivity of anti-blackness within this topology is particularly insidious.
+It creates a network of interconnected challenges that reinforce each other, making it difficult to address any single issue in isolation.
+For instance, the underfunding of schools in Black communities connects to lower teacher retention rates, which in turn affects the quality of education available to Black students.
+This interconnections extends to how antiblackness influences tracking systems, gifted and talented programs, and special education placements, often resulting in the disproportionate sorting of Black students into lower academic tracks.
+Moreover, the topological properties of antiblackness in educational spaces exhibit a certain invariance under transformations.
+Despite various reform efforts and policy changes over the years, the fundamental structure of anti-blackness persists, adapting to new contexts while maintaining its core impact.
+This is evident in how desegregation efforts have sometimes led to new forms of within-school segregation, or how colorblind policies have often failed to address the specific needs and challenges faced by Black students.
+
+Understanding the topology of anti-blackness in U.S. educational spaces requires recognizing its multifaceted nature.
+It’s not just about individual biases or isolated incidents, but about a systemic structure that shapes the entire educational landscape.
+This topological perspective highlights the need for comprehensive, systemic approaches to addressing antiblackness in education, ones that consider the interconnected nature of these challenges and seek to transform the fundamental structure of educational spaces to create truly equitable and affirming environments for Black students and other students deemed as non-white.
 
 \newpage
 
 # References
-
-::: {#refs}
-:::
-
-# Appendix
